@@ -32,6 +32,9 @@ input[type ='text']{
     padding: 10px 0;
     width: 80%;
     margin: 0 auto;
+    color: #ffffff;
+    font-size: 25px;
+
 }
 input[type="text"]:focus{
     background-color: #3D4153;
