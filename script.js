@@ -6,11 +6,10 @@ let matchPin = document.getElementById('match-pin');
 let submitBtn = document.getElementById('submit');
 submitBtn.addEventListener('click', function(){
    if(nowNumber == nowPin){ 
-    document.getElementById('wrong-pin').style.display = 'block'
-   }
-   else{
     document.getElementById('matched-pin').style.display = 'block'
    }
+   else{
+    document.getElementById('wrong-pin').style.display = 'block'   }
 });
 // random pin generate
 let nowPin = 0;  
