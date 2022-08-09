@@ -79,3 +79,9 @@ button{
     padding: 5px 20px;
     margin-top:  20px;
 }
+#matched-pin{
+    display: none;
+}
+#wrong-pin{
+    display: none;
+}

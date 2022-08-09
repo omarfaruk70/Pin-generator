@@ -40,7 +40,7 @@
                                 <button value="3" onclick="calculate('3')">3</button>
                             </div>
                             <div class="table-row">
-                                <button value="#" onclick="">←</button>
+                                <button value="#" onclick="backspace()">←</button>
                                 <button value="0" onclick="calculate('0')">0</button>
                                 <button value="C" onclick="clearMe()">C</button>
                             </div>
@@ -52,8 +52,8 @@
 
             </div>
             <div class="notify-section">
-                <p id="wrongPin" class="notify"> ❌ Pin didn't match, Please try again</p>
-                <p id="matchedPin" class="notify"> ✅ Pin matched... Secret door is opening for you.</p>
+                <p id="wrong-pin" class="notify"> ❌ Pin didn't match, Please try again</p>
+                <p id="matched-pin" class="notify"> ✅ Pin matched... Secret door is opening for you.</p>
             </div>
         </div>
     </div>
