@@ -33,7 +33,7 @@ function calculate(newvalue) {
 // clear function for C button
 function clearMe() {
     document.getElementById('match-pin').value = null;
-}
+}git
 // Backspace function for (←) button
 function backspace() {
     let backMe = matchPin.value;
